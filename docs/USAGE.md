@@ -9,7 +9,7 @@
 ## Quick Start
 
 1. Extract the zip to a folder of your choice
-2. Double-click **`ae2.exe`**
+2. Double-click **`AltEditor2.exe`**
 3. The editor opens with all compatibility fixes applied
 
 That's it. No configuration needed.

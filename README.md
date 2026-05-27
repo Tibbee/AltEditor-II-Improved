@@ -20,12 +20,12 @@ the root causes were identified and patched directly in the binary.
 Grab the latest build from
 **[GitHub Releases](https://github.com/Tibbee/AltEditor-II-Improved/releases/latest)**.
 
-No installer — just download the zip, extract, and run `ae2.exe`.
+No installer — just download the zip, extract, and run `AltEditor2.exe`.
 
 ## How to Use
 
 1. Download and extract the zip to any folder
-2. Double-click `ae2.exe`
+2. Double-click `AltEditor2.exe`
 3. The tool launches with all compatibility fixes applied automatically
 
 See [docs/USAGE.md](docs/USAGE.md) for detailed instructions.
@@ -36,7 +36,7 @@ For a complete reference of all DxWnd compatibility flags applied, see [docs/DXW
 
 | File | Purpose |
 |------|---------|
-| `ae2.exe` | The fixed AltEditor II binary |
+| `AltEditor2.exe` | The fixed AltEditor II binary |
 | `winmm.dll` | Ultimate ASI Loader — proxy loader |
 | `dxwnd.asi` | DxWnd proxy DLL — applies compatibility hooks |
 | `dxwnd.dll` | DxWnd engine |
