@@ -1,6 +1,6 @@
 [target]
 title0=AltEditor2
-path0=.\ae2.exe
+path0=*ae2.exe
 startfolder0=
 launchpath0=""
 cmdline0=
