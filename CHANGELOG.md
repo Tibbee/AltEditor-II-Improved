@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.1] — 2026-05-27
+
+### Fixed
+- **Portable DxWnd config** — Changed path from relative `.\ae2.exe` to wildcard `*ae2.exe` for reliable proxy mode support across all directories
+
 ## [1.0.0] — 2026-05-27
 
 ### Fixed
