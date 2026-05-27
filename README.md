@@ -30,6 +30,8 @@ No installer — just download the zip, extract, and run `ae2.exe`.
 
 See [docs/USAGE.md](docs/USAGE.md) for detailed instructions.
 
+For a complete reference of all DxWnd compatibility flags applied, see [docs/DXWND_CONFIG.md](docs/DXWND_CONFIG.md).
+
 ## What's Included
 
 | File | Purpose |
@@ -40,6 +42,8 @@ See [docs/USAGE.md](docs/USAGE.md) for detailed instructions.
 | `dxwnd.dll` | DxWnd engine |
 | `9xheap.dll` | Win9x heap emulation (for legacy memory handling) |
 | `dxwnd.dxw` | Pre-configured DxWnd settings |
+
+See [docs/DXWND_CONFIG.md](docs/DXWND_CONFIG.md) for a detailed breakdown of every compatibility flag.
 
 ## How It Works
 
