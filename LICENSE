@@ -1,0 +1,22 @@
+The files in this repository are covered by different licenses:
+
+## ae2.exe (Fixed Binary)
+Original work © 1996 Action Forms / WizardWorks
+Binary patches by Tibor Harsányi
+Distributed for preservation and compatibility purposes only.
+The original Carnivores 2 game is required to use this tool.
+
+## Ultimate ASI Loader (winmm.dll)
+MIT License © ThirteenAG
+See https://github.com/ThirteenAG/Ultimate-ASI-Loader
+
+## DxWnd (dxwnd.dll, dxwnd.asi)
+GNU General Public License v2
+See https://sourceforge.net/projects/dxwnd
+Source code available at the link above.
+
+## 9xheap.dll
+Part of DxWnd distribution (GPL v2)
+
+## Documentation and Scripts
+MIT License — feel free to reuse

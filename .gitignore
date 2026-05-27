@@ -1,0 +1,15 @@
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Logs
+dxwnd.log
+*.log
+
+# Release package output
+release/*.zip
+release/*.rar
+
+# Editor backups
+*.bak
