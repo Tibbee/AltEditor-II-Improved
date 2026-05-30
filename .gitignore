@@ -14,4 +14,7 @@ release/*.rar
 # Editor backups
 *.bak
 
+# Windows file naming artifacts
+nul
+
 drafts/

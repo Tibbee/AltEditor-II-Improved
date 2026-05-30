@@ -19,15 +19,15 @@ That's it. No configuration needed.
 If you want to tweak the compatibility settings:
 
 1. Download and open **DxWnd** from [sourceforge.net/projects/dxwnd](https://sourceforge.net/projects/dxwnd)
-2. The tool's settings are already saved in `dxwnd.dxw`
-3. You can import this file into DxWnd to edit flags
+2. The tool's settings are already saved in `dxwnd.ini`
+3. Open DxWnd, go to **Edit → Import** and select `dxwnd.ini`, or edit `dxwnd.ini` directly
 
 ## Troubleshooting
 
-### "Cannot load original winmm.dll library"
-- Make sure all files from the zip are extracted to the same folder
-- Try running as administrator
-- On some systems, Windows Update may have changed system files — re-extract the zip
+### The editor window doesn't open
+- Make sure `dxwnd.exe`, `dxwnd.dll`, `dxwnd.ini`, `9xheap.dll`, and `Editor.exe` are all in the same folder as `AltEditor2.exe`
+- Run `AltEditor2.exe` as administrator if DxWnd fails to hook into the process
+- Check `dxwnd.log` for any error messages
 
 ### The editor runs but looks wrong (colors/position)
 - The DxWnd settings include color and window-position fixes

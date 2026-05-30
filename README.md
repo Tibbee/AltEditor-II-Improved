@@ -36,23 +36,21 @@ For a complete reference of all DxWnd compatibility flags applied, see [docs/DXW
 
 | File | Purpose |
 |------|---------|
-| `AltEditor2.exe` | The fixed AltEditor II binary |
-| `winmm.dll` | Ultimate ASI Loader — proxy loader |
-| `dxwnd.asi` | DxWnd proxy DLL — applies compatibility hooks |
+| `AltEditor2.exe` | Launcher — starts DxWnd and hooks into the editor |
+| `Editor.exe` | The fixed AltEditor II binary (renamed from original) |
+| `dxwnd.exe` | DxWnd application — applies compatibility hooks |
 | `dxwnd.dll` | DxWnd engine |
+| `dxwnd.ini` | Pre-configured DxWnd settings |
 | `9xheap.dll` | Win9x heap emulation (for legacy memory handling) |
-| `dxwnd.dxw` | Pre-configured DxWnd settings |
 
 See [docs/DXWND_CONFIG.md](docs/DXWND_CONFIG.md) for a detailed breakdown of every compatibility flag.
 
 ## How It Works
 
-The tool uses **Ultimate ASI Loader** (renamed as `winmm.dll`) to intercept the
-game's multimedia library calls. The ASI loader then loads `dxwnd.asi`
-(DxWnd's proxy), which initializes the DxWnd engine (`dxwnd.dll`) with a
-pre-configured set of compatibility flags.
-
-This chain happens automatically — no manual DxWnd configuration needed.
+The tool ships with **DxWnd** pre-configured via `dxwnd.ini`. The `AltEditor2.exe`
+launcher starts `dxwnd.exe`, which automatically hooks into `Editor.exe`
+(the actual editor binary) and applies all compatibility settings. No manual
+DxWnd configuration needed — just run `AltEditor2.exe`.
 
 ## Building from Source
 

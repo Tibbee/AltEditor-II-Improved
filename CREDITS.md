@@ -9,17 +9,12 @@
 
 ## Third-Party Components
 
-### Ultimate ASI Loader
-- **Author:** ThirteenAG
-- **License:** MIT
-- **Source:** https://github.com/ThirteenAG/Ultimate-ASI-Loader
-- Used as winmm.dll proxy to load DxWnd hooks
-
 ### DxWnd
 - **Author:** gho (and contributors)
 - **License:** GNU General Public License v2
 - **Source:** https://sourceforge.net/projects/dxwnd
 - Provides compatibility flags (windowed mode, GDI fixes, heap emulation, etc.)
+- Hooked through `AltEditor2.bat` which launches `dxwnd.exe` alongside the editor
 
 ### 9xheap.dll
 - Included with DxWnd for Windows 9x heap emulation support

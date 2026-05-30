@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.0.4] — 2026-05-30
+
+### Changed
+- **DxWnd hook mechanism** — Replaced the ASI loader approach (`winmm.dll` + `dxwnd.asi`) with a direct DxWnd setup. The editor now launches via `AltEditor2.exe`, which starts `dxwnd.exe` to apply compatibility hooks automatically
+- **Launcher executable** — `AltEditor2.bat` converted to `AltEditor2.exe` using a bat-to-exe converter, so non-tech-savvy users see a familiar `.exe` to launch
+- **Editor binary renamed** — Original `AltEditor2.exe` renamed to `Editor.exe` to avoid confusion with the launcher
+- **DxWnd config updated** — `dxwnd.ini` now targets `Editor.exe` instead of the old executable name
+- **DxWnd config format** — Migrated from `dxwnd.dxw` to `dxwnd.ini` for the configuration file
+- **Removed dependencies** — Removed `winmm.dll` (Ultimate ASI Loader) and `dxwnd.asi` (DxWnd proxy DLL); no longer needed
+- **Documentation updated** — All docs reflect the new `AltEditor2.exe` launcher and `Editor.exe` naming
+- **README.md** — Updated file table, usage steps, and "How It Works" section
+- **CREDITS.md** — Removed Ultimate ASI Loader credit; no longer included
+- **docs/DXWND_CONFIG.md** — Updated config file references from `dxwnd.dxw` to `dxwnd.ini`
+- **docs/USAGE.md** — Updated quick-start instructions and troubleshooting
+
+### Added
+- `release/AltEditor2.exe` — Converted launcher executable (from `AltEditor2.bat`)
+- `release/Editor.exe` — The fixed AltEditor II binary (renamed)
+- `release/dxwnd.ini` — DxWnd configuration in the new INI format
+- `release/dxwnd.exe` — DxWnd application binary (standalone)
+
+### Removed
+- `release/winmm.dll` — Ultimate ASI Loader (no longer used)
+- `release/dxwnd.asi` — DxWnd proxy DLL (no longer used)
+- `release/dxwnd.dxw` — DxWnd config in the old format (replaced by `dxwnd.ini`)
+
 ## [1.0.3] — 2026-05-27
 
 ### Changed

@@ -1,6 +1,6 @@
 # DxWnd Configuration
 
-The tool ships with a pre-configured `dxwnd.dxw` that applies the following
+The tool ships with a pre-configured `dxwnd.ini` that applies the following
 compatibility settings to make AltEditor II work correctly on modern Windows.
 
 ## Active Compatibility Flags
@@ -41,6 +41,8 @@ compatibility settings to make AltEditor II work correctly on modern Windows.
 ## How to Customize
 
 1. Download **DxWnd** from [sourceforge.net/projects/dxwnd](https://sourceforge.net/projects/dxwnd)
-2. Open DxWnd, right-click → **Import** → select `dxwnd.dxw`
+2. Open DxWnd, select **Edit → Import** and choose `dxwnd.ini`
 3. Edit the target properties
-4. Right-click → **Export** to save
+4. Save changes — DxWnd will update `dxwnd.ini` automatically
+
+Alternatively, you can edit `dxwnd.ini` directly with a text editor.
