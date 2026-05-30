@@ -19,7 +19,7 @@ jobs:
         run: |
           cd release
           zip -9 "../AltEdit2-Fixed-${{ github.ref_name }}.zip" \
-            9xheap.dll AltEditor2.exe dxwnd.asi dxwnd.dll dxwnd.dxw winmm.dll
+            9xheap.dll AltEditor2.bat AltEditor2.exe Editor.exe dxwnd.dll dxwnd.exe dxwnd.ini
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
