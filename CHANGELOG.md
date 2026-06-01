@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.5] — 2026-06-01
+
+### Changed
+- **Launcher logic** — `AltEditor2.bat` now checks if DxWnd is already running before launching. If running, it sends the `/Y:#1` command to trigger the editor; if not, it starts fresh with `/R:1`
+- **Launcher executable rebuilt** — `AltEditor2.exe` rebuilt from the updated `AltEditor2.bat` source
+- **DxWnd config tuned** — Disabled `GDIASYNCDC` (Async fast mode), lowered log verbosity, switched to fake-fullscreen position mode for crash troubleshooting
+- **LICENSE cleaned up** — Removed Ultimate ASI Loader credit (`winmm.dll` was removed in v1.0.4)
+
+### Removed
+- `docs/DXWND_CONFIG.md` — DxWnd flag-to-config translations were too hard to maintain accurately. Future config changes will be manually logged
+
+<details>
+<summary>Previous versions</summary>
+
 ## [1.0.4] — 2026-05-30
 
 ### Changed
@@ -40,9 +54,6 @@
 ### Maintenance
 - **`.gitignore`** — Added `drafts/` to ignored directories
 - **Changelog cleanup** — Older versions folded into collapsible `<details>` section for a cleaner reading experience
-
-<details>
-<summary>Previous versions</summary>
 
 ## [1.0.1] — 2026-05-27
 

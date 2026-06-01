@@ -6,10 +6,6 @@ Binary patches by Tibor Harsányi
 Distributed for preservation and compatibility purposes only.
 The original Carnivores 2 game is required to use this tool.
 
-## Ultimate ASI Loader (winmm.dll)
-MIT License © ThirteenAG
-See https://github.com/ThirteenAG/Ultimate-ASI-Loader
-
 ## DxWnd (dxwnd.dll, dxwnd.asi)
 GNU General Public License v2
 See https://sourceforge.net/projects/dxwnd
